@@ -1,0 +1,262 @@
+::-webkit-scrollbar {
+  display: none;
+  }
+
+.masthead{
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+.navigation{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("/img/masthead.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("/img/masthead.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.masthead h1 {
+  font-family: 'Varela Round';
+  font-size: 8.em;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+  background: -webkit-linear-gradient(rgba(255, 208, 0, 0.9), rgba(219, 216, 31, 0.493));
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text;
+}
+
+.masthead h2 {
+  max-width: 20rem;
+  font-size: 2rem;
+}
+
+
+
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+    padding: 0;
+  }
+  .masthead h1 {
+    max-height:100rem;
+    font-size: 8rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.8rem;
+  }
+  .masthead h2 {
+    max-width: 150rem;
+    font-size: 2rem;
+  }
+}
+
+.btn {
+  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  font-family: 'Varela Round';
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  border: 0;
+}
+
+.btn-primary {
+  background-color: #64a19d;
+}
+
+.btn-primary:hover {
+  background-color: #4f837f;
+  transform:scale(1.05);
+}
+
+.btn-primary:focus {
+  background-color: #4f837f;
+  color: white;
+}
+
+.btn-primary:active {
+  background-color: #467370 !important;
+}
+
+
+body {
+  font-family: 'Nunito';
+  letter-spacing: 0.0625em;
+}
+
+
+.bg-black {
+  background-color: #161616 !important;
+}
+
+.bg-primary {
+  background-color: #64a19d !important;
+}
+
+.text-primary {
+  color: #64a19d !important;
+}
+
+.footer {
+  padding: 3rem 0;
+}
+
+.img-fluid{
+  padding: 3rem 0;
+}
+
+
+
+.categories {
+  background-color: black;
+  opacity: 0.9;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+#category
+{
+  font-family: 'Varela Round';
+  font-size: 8.em;
+  line-height: 2.5rem;
+  letter-spacing: 0.5rem;
+  color: rgba(167, 150, 57, 0.993);
+  margin: auto;
+  size: 15px;
+  align-content: left;
+  padding: 3rem 0;
+}
+#category:hover{
+  transform:scale(1.05);
+  background-color: lightslategrey;
+  color: black;
+}
+
+#selection:hover{
+  transform:scale(1.05)
+}
+
+
+.title{
+  font-family: 'Varela Round';
+  padding:50px;
+  background: -webkit-linear-gradient(rgb(218, 189, 63), rgba(247, 219, 61, 0.123));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.info
+{
+  overflow: hidden;
+  position: relative;
+  width: auto;
+  height:100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("/img/masthead2.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("/img/masthead2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.detail
+{
+  font-family: 'Nunito';
+  background-color: #f1f1f1;
+  opacity: 0.9;
+  margin:auto;
+  border-radius: 25px;
+  height:60vh;  
+}
+
+
+.detail h1,h2,h3,h4{
+  font-size: 20px;
+}
+
+.detail h5{
+  text-align: justify;
+  font-size: 20px;
+  overflow: scroll;
+}
+
+
+
+.sideBar{
+  height:400px;
+  font-size: 0.9em;
+  text-align:center;
+  font-family:'Nunito';
+  height:350px;
+  overflow: scroll;
+  overflow-y: scroll;
+}
+
+.sideBar a
+{
+color:lightslategrey;
+font-weight:bold;
+}
+
+.sideBar a:hover{
+  font-size:18px;
+  color:black;
+}
+
+.mapinfo
+{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height:100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("/img/masthead2.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("/img/masthead2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.mapNav
+{
+    margin:10px;
+
+}
+
+.floorNav
+{
+  background-color: white;
+  opacity:0.80;
+  border-radius: 25px;
+  height:350px;
+}
+
+
+
+#landmarks-level1 a polygon:hover{
+  fill: red;
+}
+
+.wholeMap{
+ max-width: 1500px;
+}
+

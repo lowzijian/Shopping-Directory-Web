@@ -1,0 +1,63 @@
+#landmarks-level1 a polygon:hover{
+    fill: red;
+}
+
+.wholeMap{
+    max-width: 1500px;
+}
+
+ul.navigator li {
+    list-style-type: none;
+    position:relative; /* so that pseudoelements are positioned relatively to their "li"s*/
+    /* use padding-bottom instead of margin-bottom.*/ 
+    margin-bottom: 0; /* This overrides previously specified margin-bottom */
+    padding-bottom: 2.5em;
+}
+
+.parent1{
+    position:static;
+}
+
+.child1{
+    position:relative;
+    top: -230px;
+}
+
+ul.navigator li:after {
+    /* bullets */
+    content: '\2022';
+    font-size: 100px;
+    color: red;
+    position: relative;
+    left: -100px; /*adjust manually*/
+    top: -108px;
+}
+
+ul.navigator li:before {
+    /* lines */
+    content:'';
+    position: relative;
+    left: -116.5px; /* adjust manually */
+    border-left: 2px solid black;
+    height: 100%;
+    width: 1px;
+}
+
+ul.navigator li:first-child:before {
+   /* first li's line */
+   top: 50px; /* moves the line down so that it disappears under the bullet. Adjust manually */
+}
+
+ul.navigator li:last-child:before {
+    /* last li's line */
+   top: 15px; /* shorten the line so it goes only up to the bullet. Is equal to first-child:before's top */
+}
+
+ul.navigator a:visited, a:active{
+    color: grey;
+}
+
+ul.navigator li a:hover{
+    color: rgb(13, 5, 128);
+    text-decoration: none;
+}
