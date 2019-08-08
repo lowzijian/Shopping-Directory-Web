@@ -58,7 +58,7 @@ Let me summarise what we have done in this project :
 - [x] Use of either session or cookie for user authentication at the back-end.
 - [x] Client-side validation is required for the back-end interface to validate input.
 
-To discover more and understand better of this projects , please refer to the guideline document 
+To discover more and understand better of this project, please refer to the guideline document 
 [Guideline Document](https://github.com/lowzijian/Shopping-Directory-Web/blob/master/Guidelines/Guidelines.docx)
 
 # Credit to 
@@ -66,3 +66,5 @@ Main Contributor :
 @cktan98
 @ChinKX 
 
+# Demo
+[Shopping web directory](https://shoppingdirectoryweb.000webhostapp.com/)
