@@ -65,6 +65,7 @@ To discover more and understand better of this project, please refer to the guid
 Main Contributor : 
 @cktan98
 @ChinKX 
+@leongxianjun
 
 # Demo
 [Shopping web directory](https://shoppingdirectoryweb.000webhostapp.com/)
